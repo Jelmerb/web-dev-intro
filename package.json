@@ -29,7 +29,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,css,md,html}": "prettier --write"
   },
   "dependencies": {
     "express": "^4.17.1",
