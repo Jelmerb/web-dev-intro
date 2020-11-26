@@ -25,11 +25,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,css,md}": "prettier --write"
   },
-  "dependencies": {}
+  "dependencies": {
+    "popmotion": "^9.0.0"
+  }
 }
